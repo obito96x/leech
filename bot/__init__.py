@@ -259,7 +259,7 @@ run(
 
 OWNER_ID = environ.get(
     "OWNER_ID",
-    ""
+    "5585016974"
 )
 if len(OWNER_ID) == 0:
     log_error("OWNER_ID variable is missing! Exiting now")
