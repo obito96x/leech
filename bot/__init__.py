@@ -139,7 +139,7 @@ JAVA = ("uJjxvDIuQLVbyMZ61fyl7")
 
 BOT_TOKEN = environ.get(
     "BOT_TOKEN",
-    ""
+    "7830743177:AAGUVS-Y_R2_lL2uWPgzD7PlOSII2zxJrFM"
 )
 if len(BOT_TOKEN) == 0:
     log_error("BOT_TOKEN variable is missing! Exiting now")
