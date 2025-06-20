@@ -269,7 +269,7 @@ else:
 
 TELEGRAM_API = environ.get(
     "TELEGRAM_API",
-    ""
+    "25098861"
 )
 if len(TELEGRAM_API) == 0:
     log_error("TELEGRAM_API variable is missing! Exiting now")
@@ -279,7 +279,7 @@ else:
 
 TELEGRAM_HASH = environ.get(
     "TELEGRAM_HASH",
-    ""
+    "bbc45d95ad3613bb3856fee4b1f9922e"
 )
 if len(TELEGRAM_HASH) == 0:
     log_error("TELEGRAM_HASH variable is missing! Exiting now")
@@ -287,7 +287,7 @@ if len(TELEGRAM_HASH) == 0:
 
 USER_SESSION_STRING = environ.get(
     "USER_SESSION_STRING",
-    ""
+    "BQCfySQALvJylNsxkZ7K9EdDIPP_P4tVOILRFSlm83VKVFwZlg4dZ5eJHT53EUlfRjR5cm1smJ1mW3Uin8NhEfiJrPVWLwH5OtQ5WXhscr-40cKpQUOKaQFFCCxX7vwAqx-6Q6CJEVvN1CpmCcdX5YnwCncg0UOW-g75lTKFDy_9g6V1vsZ-0hklkm5m518OyEdyd5V23-eSHx5cA48VEQXSdT498td6at82xKcwmghtBVBJTNpqqmko8w8YUb2gIXPfIu9ERdfgzF0yKUbG3cfz2NyCkfZTnjAM1gcBryabhqjpy45tUTWHT0aofEz_8IV4Z3VsahB1s8EvqtGHlTWaIMorlAAAAAHUKp-AAA"
 )
 if len(USER_SESSION_STRING) != 0:
     try:
@@ -355,7 +355,7 @@ elif not DOWNLOAD_DIR.endswith("/"):
 
 AUTHORIZED_CHATS = environ.get(
     "AUTHORIZED_CHATS",
-    ""
+    "-1002647127294"
 )
 if len(AUTHORIZED_CHATS) != 0:
     aid = AUTHORIZED_CHATS.split()
